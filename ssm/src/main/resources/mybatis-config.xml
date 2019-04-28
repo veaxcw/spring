@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+
+    <properties resource="jdbc.properties">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost/ssmDemo?useUnicode=true
+                                        &amp;characterEncoding=gbk
+                                        &amp;allowMultiQueries=true"/>
+        <property name="username" value="root"/>
+        <property name="password" value="ROOT"/>
+    </properties>
+
+    <typeAliases>
+        <!--别名-->
+            <typeAlias type="main.mybatis.chapter3Core.pojo.Role" alias="role"/>
+    </typeAliases>
+
+    <objectFactory type="main.mybatis.chapter4Config.MyObjectFactory">
+        <property name="prop1" value="value1"/>
+    </objectFactory>
+
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driverClass}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource><!--POOLED代表使用MyBatis内部连接池-->
+        </environment>
+    </environments>
+
+
+
+    <mappers>
+        <mapper resource="mapper/taskMapper.xml"/>
+        <mapper resource="mapper/employeeMapper.xml"/>
+        <mapper resource="mapper/employeeTaskMapper.xml"/>
+        <mapper resource="mapper/FemaleHealthFormMapper.xml"/>
+        <mapper resource="mapper/MaleHealthFormMapper.xml"/>
+        <mapper resource="mapper/workCardMapper.xml"/>
+    </mappers>
+
+
+
+</configuration>

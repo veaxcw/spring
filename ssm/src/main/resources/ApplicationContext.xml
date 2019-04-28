@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <aop:config proxy-target-class="true">
+
+    </aop:config>
+
+    <bean id="veax" class="main.springDemo.aop.framework.proxyFactoryBean.GrammyGuitarist"/>
+    <bean id="advice" class="main.springDemo.aop.framework.proxyFactoryBean.AuditAdvice"/>
+
+    <bean id="proxyOne" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="veax"/>
+        <property name="interceptorNames" ref="interceptorAdvisorNames"/>
+        <property name="proxyTargetClass" value="true"/>
+    </bean>
+
+    <!--允许代理目标类才能将代理对象注入到其他bean中-->
+    <bean id="proxyTwo" class="org.springframework.aop.framework.ProxyFactoryBean"
+          p:target-ref="veax"
+          p:interceptorNames-ref="interceptorAdvisorNames"
+          p:proxyTargetClass="true"/>
+
+    <util:list id="interceptorAdvisorNames">
+        <value>advisor</value>
+    </util:list>
+
+    <bean id="documentaristOne" class="main.springDemo.aop.framework.proxyFactoryBean.Documentarist"
+          p:dep-ref="proxyOne"/>
+
+    <bean id="documentaristTwo" class="main.springDemo.aop.framework.proxyFactoryBean.Documentarist"
+          p:dep-ref="proxyTwo"/>
+
+
+
+    <bean id="advisor" class="org.springframework.aop.support.DefaultPointcutAdvisor" p:advice-ref="advice">
+        <property name="pointcut">
+            <bean class="org.springframework.aop.aspectj.AspectJExpressionPointcut"
+                  p:expression="execution(* sing*(..))"/>
+        </property>
+    </bean>
+
+</beans>
