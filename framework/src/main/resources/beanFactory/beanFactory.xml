@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="areaBean" class="com.cbim.demo.po.AreaBean" scope="prototype">
+    <bean id="areaBean" class="com.chengw.demo.po.AreaBean" scope="prototype">
         <property name="areaCode" value="430040"/>
         <property name="areaName" value="荆州"/>
         <property name="areaType" value="4"/>

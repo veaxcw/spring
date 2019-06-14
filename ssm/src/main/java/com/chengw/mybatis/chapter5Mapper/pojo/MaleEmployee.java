@@ -1,4 +1,6 @@
-package main.mybatis.chapter5Mapper.pojo;
+package com.chengw.mybatis.chapter5Mapper.pojo;
+
+import com.chengw.mybatis.chapter5Mapper.pojo.Employee;
 
 public class MaleEmployee extends Employee {
     private MaleHealthForm maleHealthForm = null;

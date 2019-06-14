@@ -1,4 +1,4 @@
-package main.mybatis.chapter5Mapper.DAO;
+package com.chengw.mybatis.chapter5Mapper.DAO;
 
 import main.mybatis.chapter5Mapper.pojo.Employee;
 import org.apache.ibatis.annotations.Param;

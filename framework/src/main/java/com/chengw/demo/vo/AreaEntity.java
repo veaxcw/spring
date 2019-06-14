@@ -1,4 +1,4 @@
-package com.cbim.demo.vo;
+package com.chengw.demo.vo;
 
 
 import io.swagger.annotations.ApiModel;

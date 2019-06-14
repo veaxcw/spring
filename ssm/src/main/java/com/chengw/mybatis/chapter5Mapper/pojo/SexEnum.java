@@ -1,4 +1,4 @@
-package main.mybatis.chapter5Mapper.pojo;
+package com.chengw.mybatis.chapter5Mapper.pojo;
 
 public enum SexEnum {
      男,女

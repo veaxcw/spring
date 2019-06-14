@@ -1,4 +1,4 @@
-package main.springDemo.aop.proxy;
+package com.chengw.spring.aop.proxy;
 
 public class DefaultSimpleBean implements SimpleBean {
 

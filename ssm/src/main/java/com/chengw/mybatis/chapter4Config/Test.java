@@ -1,8 +1,9 @@
-package main.mybatis.chapter4Config;
+package com.chengw.mybatis.chapter4Config;
 
-import main.mybatis.chapter3Core.mapper.RoleMapper;
-import main.mybatis.chapter3Core.mapper.SqlSessionFactoryUtils;
-import main.mybatis.chapter3Core.pojo.Role;
+import com.chengw.mybatis.chapter3Core.mapper.RoleMapper;
+
+import com.chengw.mybatis.chapter3Core.mapper.SqlSessionFactoryUtils;
+import com.chengw.mybatis.chapter3Core.pojo.Role;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 

@@ -1,4 +1,4 @@
-package main.mybatis.chapter3Core.pojo;
+package com.chengw.mybatis.chapter3Core.pojo;
 
 public class Role {
     private int id;

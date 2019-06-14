@@ -1,4 +1,4 @@
-package main.mybatis.chapter5Mapper.pojo;
+package com.chengw.mybatis.chapter5Mapper.pojo;
 
 import java.util.Date;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 public class Employee {
     private int id;
     private String realName;
-    private SexEnum sex = null;
+    //private exEnum sex = null;
     private Date birthday;
     private String Mobile;
     private String email;
@@ -33,13 +33,6 @@ public class Employee {
         this.realName = realName;
     }
 
-    public SexEnum getSex() {
-        return sex;
-    }
-
-    public void setSex(SexEnum sex) {
-        this.sex = sex;
-    }
 
     public Date getBirthday() {
         return birthday;

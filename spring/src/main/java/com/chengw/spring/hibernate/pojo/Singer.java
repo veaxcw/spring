@@ -1,4 +1,6 @@
-package main.springDemo.hibernate.pojo;
+package com.chengw.spring.hibernate.pojo;
+
+
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -9,13 +11,12 @@ import java.util.Set;
 import static javax.persistence.GenerationType.IDENTITY;
 
 /**
- * Created by iuliana.cosmina on 4/22/17.
  */
 @Entity
 @Table(name = "SINGER")
 @NamedQueries({
 		@NamedQuery(name="Singer.findById",
-				query="select distinct s from Singer s " +
+				query="select distinct s from SINGER s " +
 						"left join fetch s.albums a " +
 						"left join fetch s.instruments i " +
 						"where s.id = :id"),
@@ -67,8 +68,7 @@ public class Singer implements Serializable {
 		return birthDate;
 	}
 
-	@OneToMany(mappedBy = "singer", cascade=CascadeType.ALL,
-			orphanRemoval=true)
+	@OneToMany(mappedBy = "singer", cascade=CascadeType.ALL)
 	public Set<Album> getAlbums() {
 		return albums;
 	}
@@ -122,5 +122,8 @@ public class Singer implements Serializable {
 	public String toString() {
 		return "Singer - Id: " + id + ", First name: " + firstName
 				+ ", Last name: " + lastName + ", Birthday: " + birthDate;
+	}
+
+	public void sing() {
 	}
 }

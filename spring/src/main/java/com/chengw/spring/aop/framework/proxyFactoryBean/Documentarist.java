@@ -1,15 +1,19 @@
-package main.springDemo.aop.framework.proxyFactoryBean;
+package com.chengw.spring.aop.framework.proxyFactoryBean;
 
-import org.springframework.stereotype.Component;
+import com.chengw.spring.aop.pointcut.nameMathMethodPointCut.GrammyGuitarist;
 
 
+/**
+ * @author chengw
+ */
 public class Documentarist {
+
      private GrammyGuitarist guitarist;
 
 
     public void execute(){
          guitarist.sing();
-         guitarist.talk();
+//         guitarist.talk();
      }
 
      public void setDep(GrammyGuitarist grammyGuitarist){

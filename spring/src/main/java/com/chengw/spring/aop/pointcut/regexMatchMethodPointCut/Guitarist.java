@@ -1,8 +1,12 @@
-package main.springDemo.aop.pointcut.regexMatchMethodPointCut;
+package com.chengw.spring.aop.pointcut.regexMatchMethodPointCut;
 
-import main.common.Singer;
+import com.chengw.spring.hibernate.pojo.Singer;
 
-public class Guitarist implements Singer {
+/**
+ * @author chengw
+ */
+public class Guitarist extends Singer {
+
     @Override
     public void sing() {
         System.out.println("what the fuck");

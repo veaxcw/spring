@@ -1,7 +1,6 @@
-package main.springDemo.aop.pointcut.controlFlowPointcut;
+package com.chengw.spring.aop.pointcut.controlFlowPointcut;
 
 
-import main.connectionPool.Test;
 import org.springframework.aop.Advisor;
 import org.springframework.aop.Pointcut;
 import org.springframework.aop.framework.ProxyFactory;

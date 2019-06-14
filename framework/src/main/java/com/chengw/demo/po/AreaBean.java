@@ -1,6 +1,6 @@
-package com.cbim.demo.po;
+package com.chengw.demo.po;
 
-import com.cbim.demo.common.BaseIDWorkEntity;
+import com.chengw.demo.common.BaseIDWorkEntity;
 import lombok.Data;
 
 import javax.persistence.Column;

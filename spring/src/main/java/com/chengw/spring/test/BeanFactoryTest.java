@@ -1,7 +1,7 @@
-package com.cbim.spring.test;
+package com.chengw.spring.test;
 
-import com.cbim.demo.po.AreaBean;
-import com.cbim.spring.beanFactory.BeanFactory;
+import com.chengw.demo.po.AreaBean;
+import com.chengw.spring.beanFactory.BeanFactory;
 import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

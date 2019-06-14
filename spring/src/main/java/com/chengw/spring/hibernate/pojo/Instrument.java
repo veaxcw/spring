@@ -1,4 +1,4 @@
-package main.springDemo.hibernate.pojo;
+package com.chengw.spring.hibernate.pojo;
 
 import javax.persistence.*;
 import java.io.Serializable;

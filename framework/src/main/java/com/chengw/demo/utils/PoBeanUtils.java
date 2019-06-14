@@ -1,7 +1,7 @@
-package com.cbim.demo.utils;
+package com.chengw.demo.utils;
 
-import com.cbim.demo.po.AreaBean;
-import com.cbim.demo.vo.AreaEntity;
+import com.chengw.demo.po.AreaBean;
+import com.chengw.demo.vo.AreaEntity;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

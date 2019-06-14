@@ -1,8 +1,9 @@
-package main.springDemo.aop.advice.beforeAdvice;
+package com.chengw.spring.aop.advice.beforeAdvice;
 
-import main.common.Singer;
 
-public class Guitarist implements Singer {
+import com.chengw.spring.hibernate.pojo.Singer;
+
+public class Guitarist extends Singer {
 
     private String lyric = "You are gonna live forever in me";
 

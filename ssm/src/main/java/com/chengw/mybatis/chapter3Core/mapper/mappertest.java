@@ -1,4 +1,4 @@
-package main.mybatis.chapter3Core.mapper;
+package com.chengw.mybatis.chapter3Core.mapper;
 
 import main.mybatis.chapter3Core.pojo.Role;
 import org.apache.ibatis.session.SqlSession;

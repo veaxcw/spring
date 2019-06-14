@@ -1,6 +1,6 @@
-package main.springDemo.aop.pointcut.staticMethodMatcherPointCut;
+package com.chengw.spring.aop.pointcut.staticMethodMatcherPointCut;
 
-import main.common.Singer;
+import com.chengw.spring.hibernate.pojo.Singer;
 import org.aopalliance.aop.Advice;
 import org.springframework.aop.Advisor;
 import org.springframework.aop.Pointcut;

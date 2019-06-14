@@ -1,4 +1,4 @@
-package main.springDemo.aop.pointcut.dynmicMethodMatcherPointCut;
+package com.chengw.spring.aop.pointcut.dynmicMethodMatcherPointCut;
 
 import org.springframework.aop.ClassFilter;
 import org.springframework.aop.support.DynamicMethodMatcherPointcut;

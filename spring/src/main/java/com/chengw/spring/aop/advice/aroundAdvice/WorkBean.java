@@ -1,4 +1,4 @@
-package main.springDemo.aop.advice.aroundAdvice;
+package com.chengw.spring.aop.advice.aroundAdvice;
 
 public class WorkBean {
     public void doSomeWord(int n){

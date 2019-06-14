@@ -1,4 +1,4 @@
-package com.cbim.demo.common;
+package com.chengw.demo.common;
 
 import com.cbim.common.util.IdWorkerUtil;
 import lombok.Data;

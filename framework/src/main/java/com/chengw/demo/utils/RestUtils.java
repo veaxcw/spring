@@ -1,4 +1,4 @@
-package com.cbim.demo.utils;
+package com.chengw.demo.utils;
 
 import com.cbim.common.exception.CoreExceptionEnum;
 import com.cbim.common.vo.MessageEntity;

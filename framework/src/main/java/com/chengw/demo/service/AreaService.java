@@ -1,15 +1,15 @@
-package com.cbim.demo.service;
+package com.chengw.demo.service;
 
 import com.cbim.common.exception.CoreExceptionEnum;
 import com.cbim.common.exception.ServiceException;
 import com.cbim.common.util.IdWorkerUtil;
 import com.cbim.demo.DemoApplication;
-import com.cbim.demo.dao.AreaRepo;
-import com.cbim.demo.po.AreaBean;
+import com.chengw.demo.dao.AreaRepo;
+import com.chengw.demo.po.AreaBean;
 
-import com.cbim.demo.utils.ConvertUtils;
-import com.cbim.demo.utils.PoBeanUtils;
-import com.cbim.demo.vo.AreaEntity;
+import com.chengw.demo.utils.ConvertUtils;
+import com.chengw.demo.utils.PoBeanUtils;
+import com.chengw.demo.vo.AreaEntity;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

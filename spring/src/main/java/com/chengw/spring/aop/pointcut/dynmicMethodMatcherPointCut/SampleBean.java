@@ -1,4 +1,4 @@
-package main.springDemo.aop.pointcut.dynmicMethodMatcherPointCut;
+package com.chengw.spring.aop.pointcut.dynmicMethodMatcherPointCut;
 
 public class SampleBean {
     public void foo(int x){

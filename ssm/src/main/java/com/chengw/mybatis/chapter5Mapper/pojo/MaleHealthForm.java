@@ -1,4 +1,6 @@
-package main.mybatis.chapter5Mapper.pojo;
+package com.chengw.mybatis.chapter5Mapper.pojo;
+
+import com.chengw.mybatis.chapter5Mapper.pojo.HealthForm;
 
 public class MaleHealthForm extends HealthForm {
     private  String prostate;

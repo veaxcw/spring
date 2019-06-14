@@ -1,4 +1,4 @@
-package main.springDemo.aop.advice.afterAdvice;
+package com.chengw.spring.aop.advice.afterAdvice;
 
 import java.util.Random;
 

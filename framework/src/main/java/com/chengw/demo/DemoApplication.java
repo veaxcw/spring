@@ -1,9 +1,9 @@
-package com.cbim.demo;
+package com.chengw.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = "com.cbim.demo")
+@SpringBootApplication(scanBasePackages = "com.chengw.demo")
 public class DemoApplication {
 
     public static void main(String[] args) {

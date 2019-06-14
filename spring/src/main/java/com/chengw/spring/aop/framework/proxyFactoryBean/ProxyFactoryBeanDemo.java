@@ -1,4 +1,4 @@
-package main.springDemo.aop.framework.proxyFactoryBean;
+package com.chengw.spring.aop.framework.proxyFactoryBean;
 
 
 import org.springframework.context.ApplicationContext;

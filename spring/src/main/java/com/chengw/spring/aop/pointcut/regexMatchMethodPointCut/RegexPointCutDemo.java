@@ -1,12 +1,14 @@
-package main.springDemo.aop.pointcut.regexMatchMethodPointCut;
+package com.chengw.spring.aop.pointcut.regexMatchMethodPointCut;
 
-import main.springDemo.aop.pointcut.dynmicMethodMatcherPointCut.SampleBeanAdvice;
+import com.chengw.spring.aop.pointcut.controlFlowPointcut.SampleBeanAdvice;
 import org.springframework.aop.Advisor;
 import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.aop.support.DefaultPointcutAdvisor;
 import org.springframework.aop.support.JdkRegexpMethodPointcut;
-import org.springframework.aop.support.RegexpMethodPointcutAdvisor;
 
+/**
+ * @author chengw
+ */
 public class RegexPointCutDemo {
     public static void main(String[] args) {
         Guitarist target = new Guitarist();

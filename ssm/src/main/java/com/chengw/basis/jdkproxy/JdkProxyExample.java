@@ -1,4 +1,4 @@
-package main.chapter2.jdkproxy;
+package com.chengw.basis.jdkproxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

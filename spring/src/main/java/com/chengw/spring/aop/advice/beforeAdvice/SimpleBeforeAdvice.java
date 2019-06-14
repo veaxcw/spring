@@ -1,4 +1,4 @@
-package main.springDemo.aop.advice.beforeAdvice;
+package com.chengw.spring.aop.advice.beforeAdvice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.aop.MethodBeforeAdvice;

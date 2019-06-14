@@ -1,4 +1,4 @@
-package com.cbim.demo.common;
+package com.chengw.demo.common;
 
 import lombok.Data;
 

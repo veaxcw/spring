@@ -1,4 +1,4 @@
-package main.common;
+package com.chengw.common;
 
 public class Contact {
     private String name;

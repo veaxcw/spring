@@ -1,7 +1,7 @@
-package com.cbim.demo.dao;
+package com.chengw.demo.dao;
 
 import com.cbim.common.dao.BaseRepo;
-import com.cbim.demo.po.AreaBean;
+import com.chengw.demo.po.AreaBean;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 

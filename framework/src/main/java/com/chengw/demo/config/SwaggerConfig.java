@@ -1,4 +1,4 @@
-package com.cbim.demo.config;
+package com.chengw.demo.config;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;

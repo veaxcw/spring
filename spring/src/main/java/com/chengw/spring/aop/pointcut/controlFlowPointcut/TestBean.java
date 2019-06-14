@@ -1,4 +1,4 @@
-package main.springDemo.aop.pointcut.controlFlowPointcut;
+package com.chengw.spring.aop.pointcut.controlFlowPointcut;
 
 public class TestBean {
     public void foo(){

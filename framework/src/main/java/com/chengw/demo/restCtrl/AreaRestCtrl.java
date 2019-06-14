@@ -1,11 +1,11 @@
-package com.cbim.demo.restCtrl;
+package com.chengw.demo.restCtrl;
 
 import com.cbim.common.exception.ServiceException;
 import com.cbim.common.vo.MessageEntity;
-import com.cbim.demo.common.IDEntity;
-import com.cbim.demo.service.AreaService;
-import com.cbim.demo.utils.RestUtils;
-import com.cbim.demo.vo.AreaEntity;
+import com.chengw.demo.common.IDEntity;
+import com.chengw.demo.service.AreaService;
+import com.chengw.demo.utils.RestUtils;
+import com.chengw.demo.vo.AreaEntity;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package main.springDemo.aop.pointcut.dynmicMethodMatcherPointCut;
+package com.chengw.spring.aop.pointcut.dynmicMethodMatcherPointCut;
 
 import main.springDemo.aop.pointcut.staticMethodMatcherPointCut.SimpleAdvice;
 import org.springframework.aop.Advisor;

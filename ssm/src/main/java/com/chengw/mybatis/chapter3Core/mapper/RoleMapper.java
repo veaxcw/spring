@@ -1,5 +1,6 @@
-package main.mybatis.chapter3Core.mapper;
+package com.chengw.mybatis.chapter3Core.mapper;
 
+import com.chengw.mybatis.chapter3Core.pojo.Role;
 import main.mybatis.chapter3Core.pojo.Role;
 import org.apache.ibatis.annotations.Param;
 

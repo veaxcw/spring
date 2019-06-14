@@ -1,8 +1,13 @@
-package main.springDemo.aop.pointcut.nameMathMethodPointCut;
+package com.chengw.spring.aop.pointcut.nameMathMethodPointCut;
 
-import main.common.Singer;
+import com.chengw.spring.hibernate.pojo.Singer;
 
-public class GrammyGuitarist implements Singer {
+
+/**
+ * @author chengw
+ */
+public class GrammyGuitarist extends Singer {
+
     @Override
     public void sing() {
             System.out.println();

@@ -1,4 +1,4 @@
-package main.mybatis.chapter4Config;
+package com.chengw.mybatis.chapter4Config;
 
 import org.apache.ibatis.type.JdbcType;
 import org.apache.ibatis.type.TypeHandler;

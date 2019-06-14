@@ -1,9 +1,8 @@
-package main.springDemo.aop.pointcut.staticMethodMatcherPointCut;
+package com.chengw.spring.aop.pointcut.staticMethodMatcherPointCut;
 
-import main.common.Singer;
+import com.chengw.spring.hibernate.pojo.Singer;
 
-public class GoodGuitarist  implements Singer {
-    @Override
+public class GoodGuitarist  extends Singer {
     public void sing() {
             System.out.println("I am the beast");
     }

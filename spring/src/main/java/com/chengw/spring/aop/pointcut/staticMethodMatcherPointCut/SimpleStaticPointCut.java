@@ -1,4 +1,4 @@
-package main.springDemo.aop.pointcut.staticMethodMatcherPointCut;
+package com.chengw.spring.aop.pointcut.staticMethodMatcherPointCut;
 
 import org.springframework.aop.ClassFilter;
 import org.springframework.aop.support.StaticMethodMatcherPointcut;
