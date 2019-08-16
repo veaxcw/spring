@@ -1,6 +1,5 @@
 package com.chengw.spring.aop.pointcut.dynmicMethodMatcherPointCut;
 
-import main.springDemo.aop.pointcut.staticMethodMatcherPointCut.SimpleAdvice;
 import org.springframework.aop.Advisor;
 import org.springframework.aop.framework.ProxyFactory;
 import org.springframework.aop.support.DefaultPointcutAdvisor;

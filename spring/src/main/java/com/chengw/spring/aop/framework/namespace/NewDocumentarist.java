@@ -1,13 +1,14 @@
-package main.springDemo.aop.framework.namespace;
+package com.chengw.spring.aop.framework.namespace;
 
-import main.springDemo.aop.framework.proxyFactoryBean.Documentarist;
-import main.springDemo.aop.framework.proxyFactoryBean.GrammyGuitarist;
+
+import com.chengw.spring.aop.framework.proxyFactoryBean.Documentarist;
+import com.chengw.spring.aop.framework.proxyFactoryBean.GrammyGuitarist;
 
 public class NewDocumentarist extends Documentarist {
 
     private GrammyGuitarist guitarist;
 
-
+    @Override
     public void execute(){
         guitarist.sing();
         guitarist.talk();

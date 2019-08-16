@@ -1,6 +1,7 @@
-package main.springDemo.hibernate.DAO;
+package com.chengw.spring.hibernate.DAO;
 
-import main.springDemo.hibernate.pojo.Singer;
+
+import com.chengw.spring.hibernate.pojo.Singer;
 
 import java.util.List;
 

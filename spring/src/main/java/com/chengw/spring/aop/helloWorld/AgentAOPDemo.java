@@ -1,8 +1,12 @@
-package main.springDemo.aop.helloWorld;
+package com.chengw.spring.aop.helloWorld;
 
 import org.springframework.aop.framework.ProxyFactory;
 
+/**
+ * @author chengw
+ */
 public class AgentAOPDemo {
+
     public static void main(String[] args) {
         Agent agent = new Agent();
 

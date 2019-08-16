@@ -1,4 +1,4 @@
-package main.springDemo.aop.helloWorld;
+package com.chengw.spring.aop.helloWorld;
 
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;

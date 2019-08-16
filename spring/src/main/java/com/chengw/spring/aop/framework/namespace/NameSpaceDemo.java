@@ -1,5 +1,6 @@
-package main.springDemo.aop.framework.namespace;
+package com.chengw.spring.aop.framework.namespace;
 
+import com.chengw.spring.aop.framework.namespace.NewDocumentarist;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
