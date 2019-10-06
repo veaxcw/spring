@@ -1,8 +1,0 @@
- <!--一对多级联-->
-                                <collection property="employTaskList" column="id" select="main.mybatis.chapter5Mapper.DAO.EmployeeTaskDAO.getEmployeeTaskByEmpId"/>
-
-                                <!--鉴别器-->
-                                <discriminator javaType="Integer" column="sex">
-                                    <case value="1" resultMap=""/>
-                                    <case value="2" resultMap=""/>
-                                </discriminator>
